@@ -92,7 +92,7 @@
         gap: 1rem;
         align-items: flex-start;
 
-        .topSellers{
+        .topSellers, .featuredSellers{
 
             .heading{
                 padding: 1rem 0;
@@ -103,7 +103,7 @@
             }
 
             .card{
-                padding: 1rem;
+                padding: 1rem 1.5rem;
                 border-radius: 1rem;
                 background: var(--whiteColor);
                 gap: 1rem;

@@ -71,7 +71,7 @@
 }
 
 .sideBar .menuDiv .menuLists .listItem .menuLink, .sideBar .settingsDiv .menuLists .listItem .menuLink {
-  color: var(--greyText);
+  color: grey;
   font-weight: 500;
   -webkit-transition: 0;
   transition: 0;

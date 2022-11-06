@@ -64,7 +64,7 @@
 }
 
 .topSection .headerSection .adminDiv .icon {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   background: var(--whiteColor);
   border-radius: 5px;
   padding: 5px;
@@ -189,7 +189,7 @@
   content: '';
   position: absolute;
   height: 100%;
-  width: 90%;
+  width: 80%;
   background: var(--paleGreen);
   left: 0;
   bottom: 0;
@@ -243,5 +243,158 @@
 
 .topSection .cardSection .leftCard .main .imgDiv img {
   width: 200px;
+}
+
+.topSection .cardSection .leftCard .sideBarCard {
+  display: none;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.topSection .cardSection .leftCard .sideBarCard .icon {
+  position: absolute;
+  background: var(--HoverColor);
+  border: 10px solid var(--whiteColor);
+  font-size: 3rem;
+  border-radius: 50%;
+  top: -8px;
+  right: 50%;
+  -webkit-transform: translate(50%);
+          transform: translate(50%);
+  z-index: 100;
+}
+
+.topSection .cardSection .leftCard .sideBarCard .cardContent {
+  position: relative;
+  padding: 1rem;
+  background: var(--HoverColor);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.topSection .cardSection .leftCard .sideBarCard .cardContent h3 {
+  font-size: var(--h3FontSize);
+  margin-top: 1rem;
+  padding: 1rem 0;
+  font-weight: 800;
+  color: var(--blackColor);
+}
+
+.topSection .cardSection .leftCard .sideBarCard .cardContent p {
+  font-size: var(--normalFontSize);
+  color: var(--textColor);
+  padding-bottom: 1rem;
+  font-weight: 500;
+}
+
+.topSection .cardSection .leftCard .sideBarCard .cardContent .btn {
+  position: relative;
+  color: var(--textColor);
+  z-index: 1000;
+}
+
+.topSection .cardSection .leftCard .sideBarCard .cardContent .circle1, .topSection .cardSection .leftCard .sideBarCard .cardContent .circle2 {
+  position: absolute;
+  background: var(--paleGreen);
+  border-radius: 50%;
+  opacity: .7;
+}
+
+.topSection .cardSection .leftCard .sideBarCard .cardContent .circle1 {
+  height: 100px;
+  width: 100px;
+  top: -50px;
+  left: -50px;
+}
+
+.topSection .cardSection .leftCard .sideBarCard .cardContent .circle2 {
+  height: 150px;
+  width: 150px;
+  bottom: -80px;
+  right: -70px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 991px) {
+  .cardSection {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .cardSection .rightCard, .cardSection .leftCard {
+    width: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .cardSection .leftCard {
+    margin-top: 4rem;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    height: 10px !important;
+  }
+  .topSection .cardSection .leftCard .main::before {
+    width: 45%;
+  }
+  .topSection .cardSection .leftCard .sideBarCard {
+    display: block;
+  }
+  .headerSection .searchBar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .topSection .cardSection .leftCard .sideBarCard {
+    display: none;
+  }
+  .topSection .cardSection .leftCard .main::before {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .headerSection .adminDiv {
+    display: none;
+  }
+  .headerSection .title {
+    text-align: center;
+    margin: auto;
+  }
+  .cardSection .rightCard {
+    text-align: center;
+  }
+  .cardSection .rightCard .buttons {
+    margin: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .cardSection .rightCard .buttons .btn {
+    width: 100%;
+  }
+  .leftCard .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .leftCard .main .textDiv {
+    margin: auto;
+  }
+  .leftCard .main::before {
+    width: 100% !important;
+  }
+  .leftCard .main .imgDiv {
+    display: none;
+  }
 }
 /*# sourceMappingURL=top.css.map */
