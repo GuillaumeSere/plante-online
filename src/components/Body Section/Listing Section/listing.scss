@@ -146,3 +146,30 @@
         }
     }
 }
+
+@media screen and (max-width: 990px){
+
+    .listingSection{
+        .sellers{
+            .card{
+                flex-direction: column;
+            }
+        }
+
+        .singleItem{
+            width: 200px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 490px){
+
+    .listingSection{
+        .sellers{
+            flex-direction: column;
+            .card{
+                flex-direction: row;
+            }
+        }
+    }
+}
