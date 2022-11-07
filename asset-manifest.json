@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/plante-online/static/css/main.c7338076.css",
+    "main.js": "/plante-online/static/js/main.0b1884e9.js",
+    "static/media/video.mp4": "/plante-online/static/media/video.20b140447f8613e3984c.mp4",
+    "static/media/image(6).png": "/plante-online/static/media/image(6).5f413cd30c202f3e4af5.png",
+    "static/media/image(11).png": "/plante-online/static/media/image(11).a13491a2969f389f4538.png",
+    "static/media/image(10).png": "/plante-online/static/media/image(10).2e5953467ed9d5efd28a.png",
+    "static/media/image(4).png": "/plante-online/static/media/image(4).6fbf7d44d2d4dce9cf02.png",
+    "static/media/image(9).png": "/plante-online/static/media/image(9).40069c2dea990156b91d.png",
+    "static/media/user(4).jpg": "/plante-online/static/media/user(4).75eac679af0bc834a414.jpg",
+    "static/media/user(1).jpg": "/plante-online/static/media/user(1).ce30a0a6eae932ee7f47.jpg",
+    "static/media/user(2).jpg": "/plante-online/static/media/user(2).3261d65b14088a5064f9.jpg",
+    "static/media/user(5).png": "/plante-online/static/media/user(5).5d5e42bfc8bc3622b556.png",
+    "static/media/user(3).jpg": "/plante-online/static/media/user(3).39ab0ebd46fae9db4aac.jpg",
+    "static/media/logo.png": "/plante-online/static/media/logo.7f7f92e03daea2875ec7.png",
+    "index.html": "/plante-online/index.html",
+    "main.c7338076.css.map": "/plante-online/static/css/main.c7338076.css.map",
+    "main.0b1884e9.js.map": "/plante-online/static/js/main.0b1884e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7338076.css",
+    "static/js/main.0b1884e9.js"
+  ]
+}
